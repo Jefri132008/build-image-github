@@ -28,7 +28,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Tag image
-        run: docker tag imageku ghcr.io/Jefri132008/imageku:latest
+        run: docker tag imageku ghcr.io/jefri132008/imageku:latest
 
       - name: Push Image
-        run: docker push ghcr.io/Jefri132008/imageku:latest
+        run: docker push ghcr.io/jefri132008/imageku:latest
